@@ -10,7 +10,7 @@ echo '
 <p><b>$_SERVER</b> - Provides information about the server environment and current request.</p>
 <p><b>$_COOKIE</b> - Retrieves values stored in cookies sent by the client.</p>
 <p><b>$_SESSION</b> - Stores and retrieves session data across multiple pages for a user.</p>
-<p><b>$_FILES</b> - Retrieves information about files uploaded via HTTP POST.</p>';
+<p><b>$_FILES</b> - Retrieves information about files uploaded via HTTP POST.<a href="/learnPHP/files.php">View Example</a></p>';
 
 ?>
 
