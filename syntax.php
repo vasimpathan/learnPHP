@@ -1,4 +1,7 @@
 <?php 
 # PHP syntax 
-echo "Hello World";
+echo "\<\?php";
+echo "---- Statement-----";
+echo "\?\>";
+
 ?>
