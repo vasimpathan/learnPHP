@@ -29,6 +29,8 @@ if(isset($_POST['submit']))
     if(move_uploaded_file($tmp_name, 'uploads/'.$file_name))
     {
         echo "File uploaded succcessfully";
+        echo '
+<a href="superglobal.php"> Back to List</a>';
     }
 }
 ?>
