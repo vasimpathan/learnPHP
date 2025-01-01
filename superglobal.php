@@ -1,3 +1,4 @@
+
 <?php 
 echo "<h1>Superglobal Veriables</h1><hr>";
 echo "<p>Superglobal is the one of the important points which helps us to to send data from one file to another file.</p>";

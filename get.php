@@ -5,7 +5,7 @@
 <p> - It is less secure than post because data is visiable in URL.</p>
 <p> - Limited amount of data can be passed in URL bar.</p>
 <p> - We can not pass image/document file in URL bar.</p>
-<form method="GET" action="get_info.php" style="width:15%;border:1px solid gray;padding:10px">
+<form method="GET" action="get_info.php" style="width:20%;border:1px solid gray;padding:10px">
     <label> Name</label> : <br>
     <input type="text" name="name"><br><br>
     <label>Age </label><br>

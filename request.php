@@ -3,7 +3,7 @@
 <p>- It used to pass data to same or another page.</p>
 <p>- In below form you can change method to GET or POST.</p>
 <h4>On Same Page get form data</h4>
-<form method="POST" action="request_info.php" style="width:15%;border:1px solid gray;padding:10px">
+<form method="POST" action="request_info.php" style="width:20%;border:1px solid gray;padding:10px">
     <label> Name</label> : <br>
     <input type="text" name="name"><br><br>
     <label>Age </label><br>
@@ -12,7 +12,7 @@
 </form>
 
 <br><h4>On Another Page get form data</h4>
-<form method="POST"  style="width:15%;border:1px solid gray;padding:10px">
+<form method="POST"  style="width:20%;border:1px solid gray;padding:10px">
     <label> Name</label> : <br>
     <input type="text" name="name"><br><br>
     <label>Age </label><br>

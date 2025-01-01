@@ -6,4 +6,4 @@ echo "</pre>";
 echo $_REQUEST['name'];
 echo $_REQUEST['age'];
 ?><br>
-<a href="superglobal.php"> Back to List</a>
+<a href="section.php"> Back to List</a>

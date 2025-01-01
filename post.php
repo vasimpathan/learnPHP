@@ -3,7 +3,7 @@
 <p> - It is not visible in URL bar.</p>
 <p> - It is secure than GET method</p>
 <p>- Unlimited data can pass </p>
-<form method="POST" action="post_info.php" style="width:15%;border:1px solid gray;padding:10px">
+<form method="POST" action="post_info.php" style="width:20%;border:1px solid gray;padding:10px">
     <label> Name </label><br>
     <input type="text" name="name"><br><br>
     <label> Age </label><br>
