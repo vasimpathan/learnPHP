@@ -4,15 +4,29 @@
   <div class="row content">
     <?php include('sidebar.php');?>
     <div class="col-sm-10 text-left"> 
-        <?php 
-            $page = isset($_GET['page']) ? $_GET['page'] : '';
-            if($page=='')
-            {
-                include('introduction.php');
-            }else{
-                include($page);
-            }
-        ?>
+        <h1><?=ucwords($page);?> </h1><hr>
+
+        <div class="col-md-6" style="text-align:left">
+            <h4>Code</h4>
+            <pre>
+                <?php 
+                    $fileContent = file_get_contents($page);
+                    echo htmlspecialchars($fileContent);
+                ?>
+            </pre>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Output</h4>
+            <?php 
+                if($page=='')
+                {
+                    include('introduction.php');
+                }else{
+                    include($page);
+                }
+            ?>
+        </div>
     </div>
   </div>
 </div>

@@ -66,3 +66,9 @@
     </div>
   </div>
 </nav>
+<?php 
+$page = isset($_GET['page']) ? $_GET['page'] : '';
+$arrFiles = array();
+$dirPath = "./";
+$files = glob($dirPath . "/*");
+?>

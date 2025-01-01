@@ -1,8 +1,8 @@
-<h1>$_FILES Superglobal Variable </h1><hr>
+
 <p> - Synatx : $_FILES[file_name]</p>
 <p> - it gives name, tmp_name, type, size</p>
 <p> - to upload image in folder we use <b>move_uploaded_file(tmp_name, folder_path)</b><br>
-<form method="POST" style="width:20%;border:1px solid gray;padding:10px" enctype="multipart/form-data">
+<form method="POST" style="width:50%;border:1px solid gray;padding:10px" enctype="multipart/form-data">
     <label> Upload Image </label><br>
     <input type="file" name="image"><br><br>
     <button type="submit" name="submit" value="submit">Submit</button>

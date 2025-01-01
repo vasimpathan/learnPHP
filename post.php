@@ -1,9 +1,9 @@
-<h1>2. $_POST Variable </h1><hr>
+
 <p> - Used to get the sensative information</p>
 <p> - It is not visible in URL bar.</p>
 <p> - It is secure than GET method</p>
 <p>- Unlimited data can pass </p>
-<form method="POST" action="post_info.php" style="width:20%;border:1px solid gray;padding:10px">
+<form method="POST" action="post_info.php" style="width:50%;border:1px solid gray;padding:10px">
     <label> Name </label><br>
     <input type="text" name="name"><br><br>
     <label> Age </label><br>

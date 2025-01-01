@@ -1,4 +1,4 @@
-<h1>Comments </h1><hr>
+
 <?php  
 echo "Comment is used to comment the single or multiple lines in the code which is not executable.<br>";
 
